@@ -29,6 +29,18 @@ For publishing.
 
 Suggestions and pull requests are welcomed!.
 
+
+## Donation
+
+Tips are appreciated!
+
+```
+Plug Wallet:
+iperh-j7mb5-at4hh-dphso-2h3km-fttia-2syga-2purn-2e4zh-aupuk-zqe
+
+Account ID:
+6ce43581ae187e3106c9ed2f8ce67597dd9ea76cb5c2fe8b72ffd754a59194ef
+```
 ---
 
 This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
