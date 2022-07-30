@@ -1,15 +1,29 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Canister_verifier
+# <img src="public/icons/icon_48.png" width="45" align="left"> Canister Verifier
 
-My Chrome Extension
+Smart contract verifier for Internet Computer
 
 ## Features
 
-- Feature 1
-- Feature 2
+- This Chrome extension helps you ensure that the canisters you are accessing are not tampered. Thanks to [Cover](https://github.com/Psychedelic/cover-sdk).
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+~~[**Chrome** Web Store](https://chrome.google.com/webstore/detail/lmniekpccghbpgmeikjaponllmambbdi)~~
+
+Currently under review...
+
+
+## Development
+```
+npm install
+npm run watch
+```
+Then,
+```
+npm run build
+```
+For publishing.
+
 
 ## Contribution
 
