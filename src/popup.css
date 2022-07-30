@@ -1,0 +1,176 @@
+/* normalize css starts here */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* normalize css ends here */
+
+/* Custom properties from https://app.covercode.ooo */
+:root {
+  --cover-colors-coverGreen: #03BF00;
+  --cover-colors-coverGreenOpacity: #03BF005E;
+  --cover-colors-coverDarkGreen: #013200;
+  --cover-colors-coverRed: #ED3357;
+  --cover-colors-coverYellow: #FFDF00;
+  --cover-colors-coverEbony: #171717;
+  --cover-colors-coverInk: #0F0F0F;
+  --cover-colors-coverLightWhite: #FCFCFC;
+  --cover-colors-coverWhite: #FFFFFF;
+  --cover-colors-coverWhiteOpacity: #FFFFFF5E;
+  --cover-colors-coverMediumWhite: #E2E2E2;
+  --cover-colors-coverSilver: #222222;
+  --cover-colors-coverSuperLightGray: #1D1D1D;
+  --cover-colors-coverLightGray: #656565;
+  --cover-colors-coverGray: #434343;
+  --cover-colors-coverMediumGray: #303030;
+  --cover-colors-coverDarkGray: #242424;
+  --cover-colors-coverHeavyGray: #1C1C1C;
+  --cover-colors-coverSocialIconGray: #888E8F;
+  --cover-colors-coverGradientGray: linear-gradient(90deg, #2E2E2E 0%, #242424 100%);
+  --cover-colors-coverBlue: #0092FE;
+  --cover-colors-coverBackgroundOverlay: #0D0D0D99;
+  --cover-space-0: 0px;
+  --cover-space-5: 5px;
+  --cover-space-10: 10px;
+  --cover-space-12: 12px;
+  --cover-space-14: 14px;
+  --cover-space-15: 15px;
+  --cover-space-20: 20px;
+  --cover-space-25: 25px;
+  --cover-space-30: 30px;
+  --cover-space-35: 35px;
+  --cover-sizes-25: 25px;
+  --cover-sizes-26: 26px;
+  --cover-sizes-28: 28px;
+  --cover-sizes-30: 30px;
+  --cover-sizes-32: 32px;
+  --cover-sizes-40: 40px;
+  --cover-sizes-44: 44px;
+  --cover-sizes-240: 240px;
+  --cover-sizes-400: 400px;
+  --cover-sizes-560: 560px;
+  --cover-sizes-btnMd: 34px;
+  --cover-sizes-btnLg: 44px;
+  --cover-sizes-dot: 12px;
+  --cover-fontWeights-hairline: 100;
+  --cover-fontWeights-thin: 200;
+  --cover-fontWeights-light: 300;
+  --cover-fontWeights-normal: 400;
+  --cover-fontWeights-medium: 500;
+  --cover-fontWeights-semibold: 600;
+  --cover-fontWeights-bold: 700;
+  --cover-fontWeights-extrabold: 800;
+  --cover-fontWeights-black: 900;
+  --cover-fonts-monaco: "Monaco", monospace;
+  --cover-fontSizes-xs: 12px;
+  --cover-fontSizes-sm: 14px;
+  --cover-fontSizes-md: 16px;
+  --cover-fontSizes-lg: 20px;
+  --cover-fontSizes-xl: 24px;
+  --cover-radii-8: 8px;
+  --cover-radii-mask: 6px;
+  --cover-radii-dot: 16px;
+}
+
+html {
+  font-family: Monaco, monospace, Helvetica, Arial, sans-serif;
+  background: rgb(23, 23, 23);
+  color: var(--cover-colors-coverLightWhite);
+}
+
+body {
+  width: 800px;
+  min-height: 300px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border: 1px solid var(--cover-colors-coverMediumGray);
+  width: 100%;;
+}
+
+table td {
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: var(--cover-fontWeights-normal);
+  border-bottom: 1px solid var(--cover-colors-coverMediumGray);
+  padding: 0.5rem;
+  line-height: 1.75;
+  vertical-align: top;
+}
+
+table thead {
+  border-bottom: 1px solid var(--cover-colors-coverMediumGray);
+  vertical-align: middle;
+  border-color: inherit;
+  position: sticky;
+  top: -1px;
+  background: rgb(23, 23, 23);
+  z-index: 1;
+}
+
+table thead th {
+  height: var(--cover-sizes-32);
+  color: var(--cover-colors-coverLightGray);
+  font-size: var(--cover-fontSizes-xs);
+  font-weight: var(--cover-fontWeights-normal);
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+}
+
+table thead th a {
+  display: inline-block;
+}
+
+table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+table tbody td {
+  min-height: var(--cover-sizes-32);
+  background: var(--cover-colors-coverInk);
+}
+
+table tbody tr:hover td {
+  background: var(--cover-colors-coverMediumGray);
+}
+
+table tbody td a {
+  color: var(--cover-colors-coverLightWhite);
+  text-decoration: none;
+  cursor: pointer;
+}
+table tbody td a:hover {
+  color: var(--cover-colors-coverBlue);
+}
+
+a {
+  color: var(--cover-colors-coverLightWhite);
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--cover-colors-coverBlue);
+}
+input[type=text] {
+  font-size: var(--cover-fontSizes-xs);
+  color: var(--cover-colors-coverLightGray);
+  background: var(--cover-colors-coverDarkGray);
+  border-radius: 2px;
+  padding: var(--cover-space-0) var(--cover-space-5);
+  box-sizing: border-box;
+  border: 1px solid var(--cover-colors-coverMediumGray);
+  font-weight: var(--cover-fontWeights-normal);
+}
+input[type=text]:focus-visible {
+  outline: 1px solid var(--cover-colors-coverLightGray);
+}
