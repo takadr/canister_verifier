@@ -8,9 +8,7 @@ Smart contract verifier for Internet Computer
 
 ## Install
 
-~~[**Chrome** Web Store](https://chrome.google.com/webstore/detail/lmniekpccghbpgmeikjaponllmambbdi)~~
-
-Currently under review...
+[**Chrome** Web Store](https://chrome.google.com/webstore/detail/lmniekpccghbpgmeikjaponllmambbdi)
 
 
 ## Development
